@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Реєстрація на Binance</title>
+  <meta name="description" content="Швидка реєстрація на Binance. Перейдіть за посиланням, щоб почати." />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '815424044863378');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=815424044863378&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b0f19;color:#fff}
+    .wrap{max-width:720px;margin:0 auto;padding:48px 20px}
+    .card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);border-radius:18px;padding:28px}
+    h1{margin:0 0 10px;font-size:34px;line-height:1.15}
+    p{margin:0 0 18px;font-size:16px;opacity:.9}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 22px}
+    .badge{font-size:13px;opacity:.9;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);padding:8px 10px;border-radius:999px}
+    .btn{display:inline-block;border-radius:14px;padding:14px 18px;font-weight:700;text-decoration:none;background:#f0b90b;color:#111}
+    .note{margin-top:14px;font-size:13px;opacity:.75}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="badge">КРИПТОПЛАТФОРМА</div>
+      <h1>Реєстрація на Binance</h1>
+      <p>Перейдіть за посиланням, щоб створити акаунт та почати користуватися платформою.</p>
+
+      <div class="badges">
+        <div class="badge">Швидка реєстрація</div>
+        <div class="badge">Зручний інтерфейс</div>
+        <div class="badge">Надійна безпека</div>
+      </div>
+
+      <a id="cta" class="btn"
+         href="https://www.binance.com/referral/earn-together/refer2earn-usdc/claim?hl=ru-UA&ref=GRO_28502_OT2XL&utm_source=default"
+         target="_blank" rel="noopener">
+        Зареєструватися на Binance
+      </a>
+
+      <div class="note">
+        * Без обіцянок доходу — безпечніше для модерації реклами.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Track Lead on CTA click
+    document.getElementById('cta').addEventListener('click', function () {
+      try { fbq('track', 'Lead'); } catch (e) {}
+    });
+  </script>
+</body>
+</html>
